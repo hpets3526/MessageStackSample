@@ -1,4 +1,4 @@
 # MessageStackSample
 This is a simple app showing the usage of the Message Stack
 
-#You this code to see how it works
+#Use this code to see how Message Stack works
