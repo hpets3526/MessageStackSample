@@ -17,3 +17,6 @@ C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Test.Sample.EchoHarness
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Test.Sample.EchoHarness\obj\Debug\Vin.Test.Sample.EchoHarness.csprojResolveAssemblyReference.cache
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Test.Sample.EchoHarness\obj\Debug\Vin.Test.Sample.EchoHarness.exe
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Test.Sample.EchoHarness\obj\Debug\Vin.Test.Sample.EchoHarness.pdb
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Test.Sample.EchoHarness\bin\Debug\Vin.Test.Sample.EchoHarness.exe.config
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Test.Sample.EchoHarness\obj\Debug\Vin.Test.Sample.EchoHarness.exe
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Test.Sample.EchoHarness\obj\Debug\Vin.Test.Sample.EchoHarness.pdb
