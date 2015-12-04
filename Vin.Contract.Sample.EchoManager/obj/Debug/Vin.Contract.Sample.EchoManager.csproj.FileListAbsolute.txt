@@ -1,0 +1,9 @@
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Vin.Contract.Sample.EchoManager.dll
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Vin.Contract.Sample.EchoManager.pdb
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Microsoft.ServiceBus.dll
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Vin.IFX.MessageStack.Common.dll
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Microsoft.ServiceBus.xml
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\obj\Debug\Vin.Contract.Sample.EchoManager.dll
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\Vin.Contract.Sample.EchoManager\obj\Debug\Vin.Contract.Sample.EchoManager.pdb
