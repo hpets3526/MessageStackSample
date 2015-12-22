@@ -25,7 +25,7 @@ namespace Vin.Proxy.Sample.Echo
             {
                 if (proxy != null)
                 {
-                    proxy.Close();
+                    proxy.Abort();
                 }
                 throw;
             }

@@ -7,7 +7,9 @@ using Vin.Contract.Sample.EchoManager;
 using Vin.Engine.Sample.Translate;
 using Vin.IFX.MessageStack.Common.Clients;
 using Vin.IFX.MessageStack.Common.Infrastructure;
+using Vin.IFX.MessageStack.Common.Logging.Client;
 using Vin.IFX.MessageStack.Common.ServiceBehaviors.Intranet;
+using Vin.Manager.Sample.Echo.Factories;
 
 namespace Vin.Manager.Sample.Echo
 {
@@ -16,8 +18,17 @@ namespace Vin.Manager.Sample.Echo
     {
         public string EchoMe(string echoMe)
         {
-            var proxy = InProcFactory.CreateInstance<TranslateEngine, ITranslateEngine>();
-            string translated = proxy.Translate(echoMe);
+            string translated = "This is a palindrome";
+
+            LogManagerClient myClient = new LogManagerClient();
+            myClient.WriteLogInfo("Random Logging Message");
+
+            var engineMaker = new EngineMaker<EngineFactory>();
+            if (engineMaker.ValidateEngine.IsPalindrome(echoMe) == false)
+            {
+                translated = engineMaker.TranslateEngine.Translate(echoMe);
+            }
+            
             return translated;
         }
     }

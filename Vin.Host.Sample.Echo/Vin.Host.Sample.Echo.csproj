@@ -51,8 +51,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml" />
-    <Reference Include="Vin.IFX.MessageStack.Common">
-      <HintPath>..\packages\Vin.IFX.MessageStack.Common.1.5.5816.26175\lib\net452\Vin.IFX.MessageStack.Common.dll</HintPath>
+    <Reference Include="Vin.IFX.MessageStack.Common, Version=1.5.5819.17155, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Vin.IFX.MessageStack.Common.1.5.5819.17155\lib\net452\Vin.IFX.MessageStack.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

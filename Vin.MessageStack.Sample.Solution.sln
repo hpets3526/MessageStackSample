@@ -47,6 +47,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{CF055958
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Vin.Installer.Sample.Echo", "Vin.Installer.Sample.Echo\Vin.Installer.Sample.Echo.vdproj", "{95F6A621-1B56-4172-979C-66CAE8981700}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vin.Engine.Sample.Validate", "Vin.Engine.Sample.Validate\Vin.Engine.Sample.Validate.csproj", "{4916C5CF-CCDF-4714-A068-2D82BB8CDAA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{555857E7-ACAC-4254-9CC5-2A2EF0B2082F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95F6A621-1B56-4172-979C-66CAE8981700}.Debug|Any CPU.ActiveCfg = Debug
 		{95F6A621-1B56-4172-979C-66CAE8981700}.Release|Any CPU.ActiveCfg = Release
+		{4916C5CF-CCDF-4714-A068-2D82BB8CDAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4916C5CF-CCDF-4714-A068-2D82BB8CDAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4916C5CF-CCDF-4714-A068-2D82BB8CDAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4916C5CF-CCDF-4714-A068-2D82BB8CDAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +111,7 @@ Global
 		{64643283-256F-4225-ADEF-43E6C02140AF} = {5416A78B-D32E-484F-A889-E8905FE80B36}
 		{555857E7-ACAC-4254-9CC5-2A2EF0B2082F} = {79440781-1B5D-4535-966E-7A03C6B93A02}
 		{95F6A621-1B56-4172-979C-66CAE8981700} = {CF055958-C8AF-482C-9D93-95ED828A7BA0}
+		{4916C5CF-CCDF-4714-A068-2D82BB8CDAA6} = {4E536EF5-5E82-46F6-821F-4B9C85F83247}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45

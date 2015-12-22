@@ -18,3 +18,5 @@ C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Host
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Host.Sample.Echo\obj\Debug\Vin.Host.Sample.Echo.csproj.GenerateResource.Cache
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Host.Sample.Echo\obj\Debug\Vin.Host.Sample.Echo.exe
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Host.Sample.Echo\obj\Debug\Vin.Host.Sample.Echo.pdb
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Host.Sample.Echo\bin\Debug\Vin.Engine.Sample.Validate.dll
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Host.Sample.Echo\bin\Debug\Vin.Engine.Sample.Validate.pdb
