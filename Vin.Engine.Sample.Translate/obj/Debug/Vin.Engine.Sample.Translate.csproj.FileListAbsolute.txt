@@ -15,6 +15,6 @@ C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engi
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\bin\Debug\Vin.IFX.MessageStack.Common.dll
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\bin\Debug\Microsoft.ServiceBus.xml
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
-C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\obj\Debug\Vin.Engine.Sample.Translate.csprojResolveAssemblyReference.cache
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\obj\Debug\Vin.Engine.Sample.Translate.dll
 C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\obj\Debug\Vin.Engine.Sample.Translate.pdb
+C:\Sample Solutions\Vin.MessageStack.Sample.Solution\MessageStackSample\Vin.Engine.Sample.Translate\obj\Debug\Vin.Engine.Sample.Translate.csprojResolveAssemblyReference.cache

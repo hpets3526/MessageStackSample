@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Vin.IFX.MessageStack.Common.Enumerations;
 using Vin.IFX.MessageStack.Common.Helpers;
 using Vin.IFX.MessageStack.Common.Infrastructure;
+using Vin.IFX.MessageStack.Common.PubSub;
 using Vin.Manager.Sample.Echo;
 using ServiceBase = System.ServiceProcess.ServiceBase;
 
@@ -23,7 +24,15 @@ namespace Vin.Host.Sample.Echo
 
         protected override void OnStart(string[] args)
         {
-            BindingParams bindingParams = BindingParamsHelper.BuildDefaultBindingParams(BindingType.Intranet);
+            BindingParams bindingParams = new BindingParams();
+            PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "Your namespace here", "Your Key Here");
+            SubscriptionDetail detail = new SubscriptionDetail("MyEvent1");
+            SubscriptionDetail detail2 = new SubscriptionDetail("MyEvent2");
+            pubsub.SubscriptionDetails.Add(detail);
+            pubsub.SubscriptionDetails.Add(detail2);
+
+            bindingParams.PublishSubscribe = pubsub;
+
             HostHelper.Start<EchoManager>(bindingParams, () => { });
         }
 
