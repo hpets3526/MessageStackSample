@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Azure;
 using Vin.Contract.Sample.EchoManager;
 using Vin.Engine.Sample.Translate;
 using Vin.IFX.MessageStack.Common.Clients;
@@ -10,6 +11,7 @@ using Vin.IFX.MessageStack.Common.Infrastructure;
 using Vin.IFX.MessageStack.Common.Logging.Client;
 using Vin.IFX.MessageStack.Common.ServiceBehaviors.Intranet;
 using Vin.Manager.Sample.Echo.Factories;
+using System.Configuration;
 
 namespace Vin.Manager.Sample.Echo
 {
@@ -21,7 +23,8 @@ namespace Vin.Manager.Sample.Echo
             string translated = "This is a palindrome";
 
             LogManagerClient myClient = new LogManagerClient();
-            myClient.WriteLogInfo("Random Logging Message");
+            string application = ConfigurationManager.AppSettings["Application"];
+            myClient.WriteLogInfo(application, "Random Logging Message");
 
             var engineMaker = new EngineMaker<EngineFactory>();
             if (engineMaker.ValidateEngine.IsPalindrome(echoMe) == false)

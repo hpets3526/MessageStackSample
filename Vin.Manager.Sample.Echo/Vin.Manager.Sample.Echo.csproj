@@ -32,12 +32,13 @@
   <ItemGroup>
     <Reference Include="Microsoft.ServiceBus, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\WindowsAzure.ServiceBus.3.0.9\lib\net45-full\Microsoft.ServiceBus.dll</HintPath>
+      <HintPath>..\packages\WindowsAzure.ServiceBus.3.1.1\lib\net45-full\Microsoft.ServiceBus.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.WindowsAzure.Configuration">
       <HintPath>..\packages\Microsoft.WindowsAzure.ConfigurationManager.3.1.0\lib\net40\Microsoft.WindowsAzure.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -46,9 +47,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Vin.IFX.MessageStack.Common, Version=1.5.5855.23480, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Vin.IFX.MessageStack.Common, Version=1.5.5856.18733, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Vin.IFX.MessageStack.Common.1.5.5855.23480\lib\net452\Vin.IFX.MessageStack.Common.dll</HintPath>
+      <HintPath>..\packages\Vin.IFX.MessageStack.Common.1.5.5856.18733\lib\net452\Vin.IFX.MessageStack.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -13,10 +13,10 @@ namespace Vin.Proxy.Sample.Echo
 {
     public class EchoManager_Client : IEchoManager, IEvent
     {
-        private EventProxy _eventProxy = null;
-        public EchoManager_Client()
+        private BindingParams _bindingParams;
+        public EchoManager_Client(BindingParams bindingParams)
         {
-            
+            _bindingParams = bindingParams;
         }
 
         public string EchoMe(string echoMe)
@@ -24,8 +24,7 @@ namespace Vin.Proxy.Sample.Echo
             EchoProxy proxy = null;
             try
             {
-                BindingParams bindingParams = BindingParamsHelper.BuildDefaultBindingParams(BindingType.Intranet);
-                proxy = new EchoProxy(bindingParams);
+                proxy = new EchoProxy(_bindingParams);
                 return proxy.EchoMe(echoMe);
             }
             catch (Exception)
@@ -50,10 +49,7 @@ namespace Vin.Proxy.Sample.Echo
             EventProxy proxy = null;
             try
             {
-                PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "Your namespace here", "Your access key here");
-                BindingParams bindingParams = BindingParamsHelper.BuildDefaultBindingParams(BindingType.PubSub);
-                bindingParams.PublishSubscribe = pubsub;
-                proxy = new EventProxy(bindingParams);
+                proxy = new EventProxy(_bindingParams);
                 proxy.MyEvent1(message);
             }
             catch (Exception)
@@ -78,10 +74,7 @@ namespace Vin.Proxy.Sample.Echo
             EventProxy proxy = null;
             try
             {
-                PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "Your namespace here", "Your access key here");
-                BindingParams bindingParams = BindingParamsHelper.BuildDefaultBindingParams(BindingType.PubSub);
-                bindingParams.PublishSubscribe = pubsub;
-                proxy = new EventProxy(bindingParams);
+                proxy = new EventProxy(_bindingParams);
                 proxy.MyEvent2(message);
             }
             catch (Exception)

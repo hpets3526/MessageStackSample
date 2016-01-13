@@ -17,7 +17,7 @@ namespace Vin.Test.Sample.EchoHarness
         static void Main(string[] args)
         {
             BindingParams bindingParams = new BindingParams();
-            PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "Your namespace here", "Your access key here");
+            PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "Your namespace here...", "Your access key here...");
             SubscriptionDetail detail = new SubscriptionDetail("MyEvent1");
             SubscriptionDetail detail2 = new SubscriptionDetail("MyEvent2");
             pubsub.SubscriptionDetails.Add(detail);
@@ -34,7 +34,7 @@ namespace Vin.Test.Sample.EchoHarness
             while (true)
             {
                 string input = Console.ReadLine();
-                var client = new EchoManager_Client();
+                var client = new EchoManager_Client(bindingParams);
                 string output = client.EchoMe(input);
 
                 client.MyEvent1("Pass an Event 1");
