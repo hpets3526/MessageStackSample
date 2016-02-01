@@ -17,7 +17,7 @@ namespace Vin.Test.Sample.EchoHarness
         static void Main(string[] args)
         {
             BindingParams bindingParams = new BindingParams();
-            PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "Your namespace here...", "Your access key here...");
+            PublishSubscribe pubsub = new PublishSubscribe("MessageStackSampleApp", "pubsubpoc", "I+uMxRk3eNAslfiHDtGhNgHEKN30hgiz0p09r79z73g=");
             SubscriptionDetail detail = new SubscriptionDetail("MyEvent1");
             SubscriptionDetail detail2 = new SubscriptionDetail("MyEvent2");
             pubsub.SubscriptionDetails.Add(detail);

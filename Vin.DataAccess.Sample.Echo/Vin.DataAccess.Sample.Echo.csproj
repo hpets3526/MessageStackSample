@@ -41,6 +41,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,11 +53,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataContracts\DealerSettings.cs" />
+    <Compile Include="DataContracts\Response.cs" />
+    <Compile Include="EchoData.cs" />
+    <Compile Include="DataContracts\Resource.cs" />
+    <Compile Include="Entities\ResourceOptions.cs" />
+    <Compile Include="Factories\FileRepositoryFactory.cs" />
+    <Compile Include="Factories\IRepositoryFactory.cs" />
+    <Compile Include="Factories\RepositoryFactory.cs" />
+    <Compile Include="Factories\SecureStorageRepositoryFactory.cs" />
+    <Compile Include="Helpers\RepositoryHelper.cs" />
+    <Compile Include="Interfaces\IResourceOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\AzureBlob\SecureStorage_Azure.cs" />
+    <Compile Include="Repositories\EF\FileRepository_EF.cs" />
+    <Compile Include="Repositories\IFileRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\ISecureStorageRepository.cs" />
+    <Compile Include="Repositories\Repositories.cs" />
+    <Compile Include="Repositories\S3\SecureStorage_S3.cs" />
+    <Compile Include="ServiceContracts\IEchoData.cs" />
+    <Compile Include="ServiceContracts\IFileData.cs" />
+    <Compile Include="ServiceContracts\ISecureData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
